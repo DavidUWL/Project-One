@@ -1,0 +1,58 @@
+/* border remove and font import + text decoration removal */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Teko:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'Roboto Slab', sans-serif;
+    font: weight 300px;
+    color: darkgrey;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+/* #home-button and #nav-bar */
+
+#home-button, #nav-bar {
+    line-height: 75px;
+}
+
+#home-button {
+    float: left;
+    font-size: 40px;
+    color: #4f4f4f;
+    margin-left: 10px;
+}
+
+#home-button:hover {
+    color: #9d9d9d;
+}
+
+ #nav-bar {
+    text-align: left;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+#nav-bar li {
+    list-style-type: none;
+    float: right;
+}
+
+#nav-bar a {
+    color: inherit;
+    padding: 5px;
+}
+
+#nav-bar a:hover{
+    color: #9d9d9d;
+    border-bottom: 1px solid #9d9d9d ;
+}
