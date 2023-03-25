@@ -22,7 +22,7 @@ a {
 /* #home-button and #nav-bar */
 
 #home-button, #nav-bar {
-    line-height: 75px;
+    line-height: 50px;
 }
 
 #home-button {
@@ -39,7 +39,7 @@ a {
  #nav-bar {
     text-align: left;
     margin-right: 10px;
-    padding: 5px;
+    padding: 0px;
 }
 
 #nav-bar li {
@@ -55,4 +55,18 @@ a {
 #nav-bar a:hover{
     color: #9d9d9d;
     border-bottom: 1px solid #9d9d9d ;
+}
+
+/* #hero-image and styling */
+
+#hero-container {
+    height: 100vh;
+    width: 100vw;
+}
+
+#hero-image {
+    background: url("../images/rsz_black-bike-bicycle-product-d8491f8d309dc49a1a38782165d90dc0.jpg") no-repeat center center;
+    background-size: cover; 
+    height: inherit;
+    width: inherit;
 }
