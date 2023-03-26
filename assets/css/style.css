@@ -32,6 +32,10 @@ a {
     margin-left: 10px;
 }
 
+#home-button > span {
+    padding-left: 10px;
+}
+
 #home-button:hover {
     color: #9d9d9d;
 }
@@ -57,12 +61,12 @@ a {
     border-bottom: 1px solid #9d9d9d ;
 }
 
-/* #hero-image and styling */
+/* #hero-image and dynamic viewport styling */
 
 #hero-container {
     height: 100vh;
     width: 100vw;
-    z-index: 1;
+  
 }
 
 #hero-image {
@@ -74,17 +78,16 @@ a {
 
 /* Home screen title */
 
-h1 {
-    z-index: 2;
+/* h1 {
     position: relative;
-    bottom: 1175px;
-    right: 850px;
-    text-align: center;
+    overflow: hidden;
+    text-align: left;
+    padding-left: 10px;
     color: whitesmoke;
     text-transform: lowercase;
     font-family: 'Roboto Slab', sans-serif;
     font-size: 70px;
     font-weight: 150px;
     opacity: 30%;
-    
-}
+} */
+
