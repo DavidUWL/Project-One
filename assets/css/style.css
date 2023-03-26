@@ -23,6 +23,7 @@ a {
 
 #home-button, #nav-bar {
     line-height: 50px;
+
 }
 
 #home-button {
@@ -91,3 +92,49 @@ a {
     opacity: 30%;
 } */
 
+/* About us Section */
+
+#about {
+   background-color: #282828; 
+   height: 50vh;
+   width: 100vw;
+}
+
+#about h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+#paragraph-left {
+    float: left;
+    width: 300px;
+    height: 100px;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+
+#paragraph-right {
+    float: right;
+    width: 300px;
+    height: 100px;
+    margin-right: 200px;
+    margin-top: 200px; 
+}
+
+#about-us-image-container {
+    height: 40vh;
+    width: 40vw;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+#about-us-image {
+    background-image: url('../images/imageedit_2_4294939165.jpg');
+    background-size: cover;
+    height: inherit;
+    width: inherit;
+    border-radius: 3%;
+    opacity: 70%;
+}
