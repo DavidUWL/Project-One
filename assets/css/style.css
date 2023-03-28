@@ -31,6 +31,7 @@ a {
     font-size: 40px;
     color: #4f4f4f;
     margin-left: 10px;
+    position: fixed;
 }
 
 #home-button > span {
@@ -131,4 +132,12 @@ a {
     width: inherit;
     border-radius: 3%;
     opacity: 70%;
+}
+
+/* repair section */
+
+#repair {
+    background-color: #101010;
+    height: 75vh;
+    width: 100vw;
 }
