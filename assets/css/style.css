@@ -141,3 +141,20 @@ a {
     height: 75vh;
     width: 100vw;
 }
+
+#repair-form {
+    margin:200px 15% ;
+    /* padding: 200px 15%; */
+    max-width: 550px;
+    border: 1px;
+    border-style: double;
+    
+}
+
+.text-input {
+   width: 100%;
+}
+
+#repair-form > .service {
+    text-align: center;
+}

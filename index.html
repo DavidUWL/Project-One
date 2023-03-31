@@ -64,27 +64,28 @@
         </div>
     </section>
     <section id="repair">
-        <div>
+        <div id="repair-form">
             <form action="https://formdump.codeinstitute.net" method="POST">
+                <h3>Book your repair</h3>
                 <label for="fname">First name:</label>
-                <input type="text" id="fname" name="first-name" required>
+                <input type="text" id="fname" class="text-input" name="first-name" required>
                 <label for="lname">Last name:</label>
-                <input type="text" id="lname" name="last-name" required>
+                <input type="text" id="lname" class="text-input" name="last-name" required>
                 <label for="email">Email address:</label>
-                <input type="email" id="email" name="email-address" required>
+                <input type="email" id="email" class="text-input" name="email-address" required>
                 <label for="phone-number">Contact number:</label>
-                <input type="tel" id="contact-number" name="last-name" required>
+                <input type="tel" id="contact-number" class="text-input" name="last-name" required>
                 <label for="datetime-local">Date and time:</label>
-                <input type="datetime-local" id="date-and-time" name="date-and-time" required>
+                <input type="datetime-local" id="date-and-time" class="text-input" name="date-and-time" required>
                 <label for="service-level">Service level:</label>
-                <select name="service-level" id="service">
+                <select name="service-level" id="service" class="text-input">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>    
                 </select>
                 <label for="bicycle-type">Bicycle type:</label>
-                <select name="bicycle-type" id="bicycle-type">
+                <select name="bicycle-type" class="text-input" id="bicycle-type">
                     <option value="road">Road</option>
                     <option value="mtb">mtb</option>
                     <option value="hybrid">Hybrid</option>
