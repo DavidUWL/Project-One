@@ -91,6 +91,7 @@ a {
     text-align: center;
     text-decoration: underline;
     font-size: 40px;
+    text-transform: uppercase;
 }
 
 #paragraph-left {
@@ -126,7 +127,7 @@ a {
 }
 
 #about-us-image {
-    background-image: url('../images/imageedit_2_4294939165.jpg');
+    background-image: url("../images/imageedit_2_4294939165.jpg");
     background-size: cover;
     height: inherit;
     width: inherit;
@@ -142,12 +143,29 @@ a {
     width: 100vw;
 }
 
+#repair h2 {
+    color:#4f4f4f;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
 #repair-form {
-    margin:200px 15% ;
-    /* padding: 200px 15%; */
+    position: relative;
+    left: 100px;
+    top: 140px;
+
     max-width: 550px;
     border: 1px;
     border-style: double;
+    clear: both;
+    
+}
+
+#repair-form h3 {
+    text-align: center;
+    border-bottom: 2px dashed #282828;
     
 }
 
@@ -155,6 +173,24 @@ a {
    width: 100%;
 }
 
-#repair-form > .service {
-    text-align: center;
+#repair-image-container {
+    width: 33vw;
+    height: inherit;
+    position: relative;
+    left: 67vw;
+    bottom: 397px;
 }
+
+#repair-image {
+    background: url("../images/bike-workshop.jpg") no-repeat;
+    height: inherit;
+    width: inherit;
+    
+
+}
+
+
+
+
+
+
