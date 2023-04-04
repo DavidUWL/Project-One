@@ -173,11 +173,23 @@ a {
    width: 100%;
 }
 
+#service-level-legend {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+
+
+}
+
+#service-level-legend h4 {
+    text-align: center;
+}
+
 #repair-image-container {
-    width: 33vw;
+    width: 31vw;
     height: inherit;
     position: relative;
-    left: 67vw;
+    left: 69vw;
     bottom: 397px;
 }
 
