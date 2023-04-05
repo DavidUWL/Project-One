@@ -142,10 +142,12 @@ a {
     background-color: #101010;
     height: 75vh;
     width: 100vw;
+    background: url("../images/bike-workshop.jpg") no-repeat center;
+    background-size: cover;
 }
 
 #repair h2 {
-    color:#4f4f4f;
+    color:#dedede;
     text-align: center;
     text-decoration: underline;
     font-size: 40px;
@@ -153,15 +155,15 @@ a {
 }
 
 #repair-form {
-    position: relative;
-    left: 100px;
-    top: 140px;
-
+    float: right;
+    margin-top: 3%;
+    margin-right: 70px;
     max-width: 550px;
     border: 1px;
-    border-style: double;
-    clear: both;
-    
+    border-style: double; 
+    background-color: rgb(37, 37, 37);
+    opacity: 93%;
+    padding-left: 10px;
 }
 
 #repair-form h3 {
@@ -186,21 +188,29 @@ a {
     text-align: center;
 }
 
-#repair-image-container {
-    width: 31vw;
-    height: inherit;
-    position: relative;
-    left: 69vw;
-    bottom: 397px;
+
+/* footer */
+
+footer {
+    height: 110px;
 }
 
-#repair-image {
-    background: url("../images/bike-workshop.jpg") no-repeat center;
-    background-size: contain;
-    height: inherit;
-    width: inherit;
-    
+#socials {
+    text-align: center;
+}
 
+#socials > li {
+    display: inline;
+}
+
+#socials i {
+    padding: 3%;
+    font-size: 180%;
+    color: #4f4f4f;
+}
+
+#socials a:hover {
+    font-size: 105%;
 }
 
 
