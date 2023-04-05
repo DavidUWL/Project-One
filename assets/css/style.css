@@ -45,7 +45,7 @@ a {
  #nav-bar {
     text-align: left;
     margin-right: 10px;
-    padding: 0px;
+    /* padding: 0px; */
 }
 
 #nav-bar li {
@@ -66,7 +66,7 @@ a {
 /* #hero-image and dynamic viewport styling */
 
 #hero-container {
-    height: 100vh;
+    height: 105vh;
     width: 100vw;
   
 }
@@ -98,17 +98,18 @@ a {
     float: left;
     width: 300px;
     height: 100px;
-    margin-left: 200px;
-    margin-top: 150px;
+    position: relative;
+    left: 10%;
+
 }
 
 #paragraph-right {
     float: right;
     width: 300px;
     height: 100px;
-    margin-right: 200px;
-    margin-top: 150px; 
-    line-height: 30px;
+    position: relative;
+    right: 10%;
+    top: 3%;
 }
 
 #paragraph-right, #paragraph-left {
@@ -194,7 +195,8 @@ a {
 }
 
 #repair-image {
-    background: url("../images/bike-workshop.jpg") no-repeat;
+    background: url("../images/bike-workshop.jpg") no-repeat center;
+    background-size: contain;
     height: inherit;
     width: inherit;
     
