@@ -63,12 +63,15 @@ a {
     border-bottom: 1px solid #9d9d9d ;
 }
 
-/* #hero-image and dynamic viewport styling */
+#title-tagline {
+    margin: 0 auto;
+}
+
+/* #hero-image and dynamic viewport styling*/
 
 #hero-container {
     height: 105vh;
     width: 100vw;
-  
 }
 
 #hero-image {
@@ -76,6 +79,19 @@ a {
     background-size: cover; 
     height: inherit;
     width: inherit;
+    animation-name: hero-fade;
+    animation-duration: 3s;
+    
+}
+
+@keyframes hero-fade {
+    from{
+        opacity:0%;
+    }
+
+    to{
+        opacit:100%;
+    }
 }
 
 /* About us Section */
@@ -213,8 +229,58 @@ footer {
     font-size: 105%;
 }
 
+/* refactoring for smaller resolutions */
+
+@media screen and (max-width: 1441px){
+
+  
+
+    #paragraph-right {
+        position: relative;
+        left: 1%;
+        
+    }
+
+    #paragraph-left {
+        left: unset;
+        width: 270px;
+        left: 3%;
+    }
 
 
+}
 
+@media screen and (max-width: 769px) {
+   
+    #home-button {
+        color: #101010;
+        z-index: 2;
+    }
+
+    #home-button > span {
+        visibility: hidden;
+    }
+
+    #about {
+        height: 100vh;
+    }
+
+    #about-us-image-container {
+        width: 100%;
+        height: 300px;
+    }
+
+    #paragraph-left {
+        margin-top: 310px;
+    }
+
+    #paragraph-right {
+        margin-top: 330px;
+    }
+
+    #repair {
+        height: 100vh;
+    }
+}
 
 
