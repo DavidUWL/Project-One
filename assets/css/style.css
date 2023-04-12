@@ -64,7 +64,9 @@ a {
 }
 
 #title-tagline {
-    margin: 0 auto;
+    padding-left: 43%;
+    bottom: 55%;
+    position: relative;
 }
 
 /* #hero-image and dynamic viewport styling*/
