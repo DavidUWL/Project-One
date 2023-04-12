@@ -251,7 +251,7 @@ footer {
 
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 1000px) {
    
     #home-button {
         color: #101010;
@@ -291,7 +291,7 @@ footer {
 }
 
 
-@media screen and (max-width:376px) {
+@media screen and (max-width: 426px) {
     #title-tagline {
         padding-left:30%;
         bottom: 80%;
@@ -308,7 +308,4 @@ footer {
         margin-left: 15%;
     }
 
-
-
-    
 }
