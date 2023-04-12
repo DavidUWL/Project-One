@@ -10,7 +10,7 @@
 
 body {
     font-family: 'Roboto Slab', sans-serif;
-    font: weight 300px;
+    font-weight: 300px;
     color: darkgrey;
 
 }
@@ -90,7 +90,7 @@ a {
     }
 
     to{
-        opacit:100%;
+        opacity:100%;
     }
 }
 
