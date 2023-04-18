@@ -26,7 +26,7 @@
 
     <div id="home-screen">  
         <div id="hero-container">
-            <div id="hero-image"></div>
+            <div id="hero-image" alt></div>
             <h2 id="title-tagline"> Repair.Buy.Sell</h2>
         </div>
         
@@ -79,10 +79,10 @@
                 <input type="datetime-local" id="date-and-time" class="text-input" name="date-and-time" required>
                 <label for="service-level">Service level:</label>
                 <select name="service-level" id="service" class="text-input">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>    
+                    <option value="1">1 : Very basic service - tyres/brakes</option>
+                    <option value="2">2 : Roadworthy service - tyres/brakes/gears.</option>
+                    <option value="3">3 : Full service - tyres/brakes/gears/headset/bottom bracket</option>
+                    <option value="4">4 : racing season service - full service + strip and rebuild</option>    
                 </select>
                 <label for="bicycle-type">Bicycle type:</label>
                 <select name="bicycle-type" class="text-input" id="bicycle-type">
@@ -90,30 +90,39 @@
                     <option value="mtb">mtb</option>
                     <option value="hybrid">Hybrid</option>
                 </select>
-                <input type="submit" value="submit">
+                <input type="submit" value="Book it!" id="submit-button">
             </form>
-            <div id="service-level-legend">
-                <h4>which service level?</h4>
-                <ol>
-                    <li>
-                        Very basic service - tyres/brakes.
-                    </li>
-                    <li>
-                        Roadworthy service - tyres/brakes/gears.
-                    </li>
-                    <li>
-                        Full service - tyres/brakes/gears/headset/bottom bracket.
-                    </li>
-                    <li>
-                        racing season service - full service + strip and rebuild.
-                    </li>
-                </ol>
             </div>
+        </div>
+        <div id="testimonials">
+            <h3>
+                Customer Testimonials
+            </h3>
+            <p>
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                "The best mechanics in the Dublin area, highly recommend." - David Kirby 2023
+                <br>
+                <hr>
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                "I wouldn't go anywhere else to have my bike serviced" - Damien Kearney 2023
+                <br>
+                <hr>
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                "Perfect every single time." - The C Man 2022
+                <br>
+                <hr>
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                "Quick service, fantastic wheel builders." - Dermot K 2022
+                <br>
+                <hr>
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                "Been going to this shop for forty years, says enough." John Donnelly 2022
+            </p>
         </div>
     </section>
 
     <footer>
-        <ul id="socials">
+        <ul class="socials">
            <li> <a href="http://facebook.com" target="_blank" rel="noopener" aria-label="link to our facebook">
                 <i class="fa-brands fa-facebook"></i></a> 
             </li>

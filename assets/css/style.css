@@ -21,7 +21,8 @@ a {
 
 /* #home-button and #nav-bar */
 
-#home-button, #nav-bar {
+#home-button,
+#nav-bar {
     line-height: 50px;
 
 }
@@ -32,9 +33,10 @@ a {
     color: #4f4f4f;
     margin-left: 10px;
     position: fixed;
+
 }
 
-#home-button > span {
+#home-button>span {
     padding-left: 10px;
 }
 
@@ -42,9 +44,12 @@ a {
     color: #9d9d9d;
 }
 
- #nav-bar {
+#nav-bar {
+    position: fixed;
+    left: 80%;
     text-align: left;
     margin-right: 10px;
+    font-size: 20px;
 }
 
 #nav-bar li {
@@ -57,13 +62,13 @@ a {
     padding: 5px;
 }
 
-#nav-bar a:hover{
+#nav-bar a:hover {
     color: #9d9d9d;
-    border-bottom: 1px solid #9d9d9d ;
+    border-bottom: 1px solid #9d9d9d;
 }
 
 #title-tagline {
-    padding-left:45%;
+    padding-left: 45%;
     bottom: 80%;
     position: relative;
 }
@@ -76,31 +81,31 @@ a {
 }
 
 #hero-image {
-    background: url("../images/rsz_black-bike-bicycle-product-d8491f8d309dc49a1a38782165d90dc0.jpg") no-repeat center center;
-    background-size: cover; 
+    background: url("../images/hero-image.jpg") no-repeat center center;
+    background-size: cover;
     height: inherit;
     width: inherit;
     animation-name: hero-fade;
     animation-duration: 3s;
-    
+
 }
 
 @keyframes hero-fade {
-    from{
-        opacity:0%;
+    from {
+        opacity: 0%;
     }
 
-    to{
-        opacity:100%;
+    to {
+        opacity: 100%;
     }
 }
 
 /* About us Section */
 
 #about {
-   background-color: #282828; 
-   height: 50vh;
-   width: 100vw;
+    background-color: #282828;
+    height: 50vh;
+    width: 100vw;
 }
 
 #about h2 {
@@ -129,10 +134,11 @@ a {
     top: 3%;
 }
 
-#paragraph-right, #paragraph-left {
+#paragraph-right,
+#paragraph-left {
     color: #e1dddd;
     font-size: 20px;
-    
+
 
 }
 
@@ -145,7 +151,7 @@ a {
 }
 
 #about-us-image {
-    background-image: url("../images/imageedit_2_4294939165.jpg");
+    background-image: url("../images/staff-picture.jpg");
     background-size: cover;
     height: inherit;
     width: inherit;
@@ -164,7 +170,7 @@ a {
 }
 
 #repair h2 {
-    color:#dedede;
+    color: #dedede;
     text-align: center;
     text-decoration: underline;
     font-size: 40px;
@@ -174,10 +180,10 @@ a {
 #repair-form {
     float: right;
     margin-top: 3%;
-    margin-right: 70px;
+    margin-right: 300px;
     max-width: 550px;
     border: 1px;
-    border-style: double; 
+    border-style: double;
     background-color: rgb(37, 37, 37);
     opacity: 93%;
     padding-left: 10px;
@@ -186,25 +192,54 @@ a {
 #repair-form h3 {
     text-align: center;
     border-bottom: 2px dashed #282828;
-    
+
 }
 
 .text-input {
-   width: 100%;
+    width: 100%;
 }
 
-#service-level-legend {
-    float: left;
-    margin-left: 10px;
-    margin-top: 10px;
-
-
+#submit-button {
+    height: 30px;
+    width: 80px;
+    border-radius: 8%;
+    margin-left: 40%;
 }
 
-#service-level-legend h4 {
+#submit-button:hover {
+    background-color: #101010;
+    border: #9d9d9d;
+    border-width: 1px;
+    border-style: inset;
+}
+
+#testimonials {
+    width: 800px;
+    height: 200px;
+    border: #9d9d9d;
+    border-width: 2px;
+    border-style: double;
+    background-color: rgb(37, 37, 37);
+    opacity: 93%;
+}
+
+#testimonials p {
+    font-size: 17px;
+    line-height: 25px;
+}
+
+#testimonials h3 {
     text-align: center;
+    text-decoration: underline;
+    
 }
 
+#testimonials > hr {
+    border-top: 2px solid #4f4f4f;
+    width: 90%;
+    margin-top: 6px;
+    
+}
 
 /* footer */
 
@@ -213,34 +248,34 @@ footer {
     background-color: #282828;
 }
 
-#socials {
+.socials {
     text-align: center;
 }
 
-#socials > li {
+.socials>li {
     display: inline;
 }
 
-#socials i {
+.socials i {
     padding: 3%;
     font-size: 180%;
     color: #4f4f4f;
 }
 
-#socials a:hover {
+.socials a:hover {
     font-size: 105%;
 }
 
 /* refactoring for smaller resolutions */
 
-@media screen and (max-width: 1441px){
+@media screen and (max-width: 1454px) {
 
-  
+
 
     #paragraph-right {
         position: relative;
         left: 1%;
-        
+
     }
 
     #paragraph-left {
@@ -252,25 +287,49 @@ footer {
 
 }
 
+@media screen and (max-width: 1025px) {
+    #nav-bar {
+        position: fixed;
+        left: 70%;
+        text-align: left;
+        margin-right: 10px;
+        font-size: 20px;
+    }
+
+    #paragraph-right {
+        left: 2%;
+    }
+
+
+}
+
 @media screen and (max-width: 1000px) {
-   
+
     #home-button {
         color: #101010;
         z-index: 2;
     }
 
-    #home-button > span {
+    #home-button>span {
         visibility: hidden;
     }
 
+    #nav-bar {
+        position: fixed;
+        left: 70%;
+        text-align: left;
+        margin-right: 10px;
+        font-size: 20px;
+    }
+
     #title-tagline {
-        padding-left:38%;
+        padding-left: 38%;
         bottom: 80%;
         position: relative;
     }
 
     #about {
-        height: 100vh;
+        height: 70vh;
     }
 
     #about-us-image-container {
@@ -291,22 +350,34 @@ footer {
     }
 }
 
+@media screen and (max-width: 580px) {
+    #nav-bar {
+        position: fixed;
+        left: 30%;
+        text-align: left;
+        margin-right: 10px;
+        font-size: 20px;
+    }
 
-@media screen and (max-width: 426px) {
     #title-tagline {
-        padding-left:30%;
+        padding-left: 30%;
         bottom: 80%;
         position: relative;
-    } 
-    
-    #about { 
-        height: 130vh;
-        width: 100vw;
-     }
+    }
 
-     #paragraph-right {
+    #about {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    #paragraph-right {
         margin-top: 220px;
         margin-left: 15%;
+    }
+
+    #repair-form {
+        position: relative;
+        left: 40px;
     }
 
 }
