@@ -213,12 +213,22 @@ a {
     border-style: inset;
 }
 
+/* testimonials and map */
+
+#testimonials-and-map {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #testimonials {
     overflow:hidden;
-    width: 100%;
-    height: 200px;
-    padding-top: 30px;
+    width: 50%;
+    height: 100%;
     opacity: 93%;
+    border: 1px;
+    border-style: double; 
+    background-color: rgb(37, 37, 37);
+    text-align: center;
 }
 
 #testimonials p {
@@ -237,6 +247,10 @@ a {
     width: 90%;
     margin-top: 6px;
     
+}
+
+#map {
+    max-width: 100%;
 }
 
 /* footer */
@@ -377,5 +391,11 @@ footer {
         position: relative;
         left: 40px;
     }
+}
 
+@media screen and (max-width: 426px) {
+    #repair-form {
+        position: relative;
+        left: 50px;
+    }
 }
