@@ -239,18 +239,17 @@ a {
 #testimonials h3 {
     text-align: center;
     text-decoration: underline;
-    
 }
 
 #testimonials > hr {
     border-top: 2px solid #4f4f4f;
     width: 90%;
     margin-top: 6px;
-    
 }
 
 #map {
     max-width: 100%;
+    margin-left: 20%;
 }
 
 /* footer */
@@ -287,7 +286,6 @@ footer {
     #paragraph-right {
         position: relative;
         left: 1%;
-
     }
 
     #paragraph-left {
@@ -295,8 +293,6 @@ footer {
         width: 270px;
         left: 3%;
     }
-
-
 }
 
 @media screen and (max-width: 1025px) {
@@ -311,8 +307,6 @@ footer {
     #paragraph-right {
         left: 2%;
     }
-
-
 }
 
 @media screen and (max-width: 1000px) {
@@ -414,7 +408,32 @@ footer {
         width: 100%;
     }
 
-    #map {
-        
+    #home-button {
+        width: 20%;
+    }
+
+}
+
+@media screen and (max-width: 376px) {
+    #repair-form {
+    position: relative; 
+    left:79%;
+    width: 95vw;
+    }
+
+    #home-button {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    #repair-form {
+    position: relative; 
+    left:93%;
+    width: 95vw;
+    }
+
+    #home-button {
+        width: 20%;
     }
 }
