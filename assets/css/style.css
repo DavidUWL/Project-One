@@ -362,6 +362,15 @@ footer {
     }
 }
 
+@media screen and (max-width: 769px) {
+    #repair-form {
+        position: relative;
+        left: 20%;
+        top: 15%;
+    }
+
+}
+
 @media screen and (max-width: 580px) {
     #nav-bar {
         position: fixed;
@@ -396,6 +405,16 @@ footer {
 @media screen and (max-width: 426px) {
     #repair-form {
         position: relative;
-        left: 50px;
+        left: 67%;
+        width: 380px;
+        
+    }
+
+    #testimonials {
+        width: 100%;
+    }
+
+    #map {
+        
     }
 }
