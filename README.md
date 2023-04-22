@@ -185,4 +185,5 @@ All images on this site were used with the permission of the owners/people invol
 ## Acknowledgments
 [Stagg Cycles](http://staggcycles.com/) For letting me use their location for the Google Map Location.<br>
 [Derek Mcauley](https://github.com/derekmcauley7) For his guidance as my Code Institute mentor. <br>
-Joanna From Code institute for her code review on positioning of my testimonial section. 
+Joanna From Code institute for her code review on positioning of my testimonial section. <br>
+[kera cudmore](https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md) For her fantastic Readme Template.
